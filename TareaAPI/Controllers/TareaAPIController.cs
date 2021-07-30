@@ -130,7 +130,7 @@ namespace TareaAPI.Controllers
 
         [HttpGet("filtrarModelo")]
         [Route("filtrarModelo/{Id}")]
-        public ActionResult<IEnumerable<Models.Vehiculo>> filtrarVehiculos(String id, [FromBody] Vehiculo vehiculo)
+        public ActionResult<IEnumerable<Models.Vehiculo>> filtrarVehiculos(String id)
         {
             try
             {
